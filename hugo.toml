@@ -2,3 +2,34 @@ baseURL = "https://tcurls.net/"
 languageCode = "en-us"
 title = "T's Personal Website"
 theme = "hermit-v2"
+
+[languages]
+  [languages.en]
+    title = "T's Personal Website"
+    [languages.en.params]
+      homeSubtitle = "Check out what I'm up to!"
+    weight = 1
+
+[params]
+  # description = "CHANGE ME SITE DESCRIPTION"
+  # images = [""]
+  themeColor = "#523473"
+
+  footerCopyright = "T Curley"
+  #footerHideThemeName = false
+  # bgImg = ""
+  gitUrl = "https://github.com/curleyt1/tcurlsnet/tree/main"
+
+  shareSocial = true
+
+  [[params.socialLinks]]
+    name = "bluesky"
+    url = "https://bsky.app/profile/tcurls.net"
+
+  [[params.socialLinks]]
+    name = "github"
+    url = "https://github.com/curleyt1"
+
+  [[params.socialLinks]]
+    name = "twitch"
+    url = "https://twitch.tv/tkurls"
