@@ -10,12 +10,17 @@ theme = "hermit-v2"
       homeSubtitle = "Check out what I'm up to!"
     weight = 1
 
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+
+[params.author]
+  name = "T Curley"
+
 [params]
   # description = "CHANGE ME SITE DESCRIPTION"
   # images = [""]
   themeColor = "#523473"
 
-  footerCopyright = "T Curley"
+  footerCopyright = ' <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   #footerHideThemeName = false
   # bgImg = ""
   gitUrl = "https://github.com/curleyt1/tcurlsnet/tree/main"
